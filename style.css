@@ -1,0 +1,198 @@
+
+.space {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.capsule-container {
+    background-color: #fff;
+    border-bottom: 2px solid black;
+}
+
+.capsule {
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(245, 91, 8);
+    font-size: 25px;
+    margin-left: 45%;
+    font-family: 'Poppins', sans-serif;
+    width: 110px;
+    transition-property: background-color;
+    border-bottom: 2px solid black;
+    box-shadow: 10px bold black;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.capsule:hover {
+    background-color: rgb(39, 6, 255);
+    width: 120px;
+    height: 80px;
+}
+    
+
+    .dot {
+    color: red;
+    }
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 900;
+    font-size: xx-large;
+    background-color: lawngreen;
+    backdrop-filter: blur(3px);
+    background-size: contain;
+    border-radius: 25px;
+    transition-property: background-color;
+    transition-duration: 2s;
+
+}
+
+.heading:hover {
+    background-color: purple;
+}
+
+.port {
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 10px;
+}
+
+
+.hi {
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid black;
+}
+
+.about {
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid black;
+}
+
+.search {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.deco {
+    background-color: rgb(246, 246, 248);
+    color: #fff;
+    height: 10%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: double;
+    text-align: center;
+    text-transform: black;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+.deco:hover {
+    background-color: rgb(56, 5, 114);
+}
+
+.material-icons-outlined {
+    font-family: 'Poppins', sans-serif; 
+    
+
+}
+
+.youtube {
+    border-bottom: 2px solid black;
+}
+
+.login {
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+.knowme {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1cm;
+    font-weight: 2000;
+    text-shadow: 10px black;
+    color: rgb(0, 255, 208);
+    margin-top: -20px;
+    border-radius: 50px;
+}
+
+.bullet {
+    color: rgb(5, 25, 248);
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 20mm black;
+    border-style: double;
+    border-color: rgb(3, 224, 245);
+    font-size: medium;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+}
+
+.knomebox {
+    border-style: groove;
+    border-color: blueviolet;
+    margin-bottom: 20px;
+    
+}
+
+.animation {
+    background-color: red;
+    box-shadow: black 2px;
+    height: 100px;
+    width: 200px;
+    border-radius: 25px;
+    animation-name: right-movement;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
+    margin-left: 40%;
+}
+
+.box {
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+
+
+}
+
+@keyframes right-movemnt {
+    from {
+        top: 0;
+        left: 0;
+    }
+
+    to {
+        top: 0;
+        left: 1200px;
+    }
+}
+
+.project {
+    font-family: 'Poppins', sans-serif; 
+}
+
+.image {
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.line {
+    margin-top: 0px;
+    outline-color: black;
+    border-bottom: 2px solid black;
+    width: 1400px
+}
+
+.end {
+    font-family: 'Indie Flower', cursive;
+}
